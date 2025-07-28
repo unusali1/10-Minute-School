@@ -108,8 +108,8 @@ const Features = ({ sections, loading }) => {
             <Image
               src={item?.thumbnail}
               alt={`${item?.title} thumbnail`}
-              width={240}
-              height={240}
+              width={340}
+              height={340}
               className="object-contain"
               loading="lazy"
             />
